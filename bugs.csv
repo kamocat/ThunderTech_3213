@@ -1,7 +1,7 @@
 status,severity,category,files,"reported by",description
-"not started",2,calibration,"init Drive.vi",Marshal,"PID on drive base needs tuning"
+fixed,2,calibration,"init Drive.vi",Marshal,"PID on drive base tuned to [0.3, 0.01, 0]"
 "no hardware",3,calibration,"execute manipulators.vi",Marshal,"ideal positions on arm unkown"
 "no hardware",3,calibration,"init manipulators.vi",Marshal,"PID on arm needs tuning"
 "no hardware",3,calibration,"init manipulators.vi",Marshal,"PID on wrist needs tuning"
 "no hardware",3,calibration,"init manipulators.vi",Marshal,"ideal positions for grab servos unknown"
-workaround,,control,setSpeedRef.vi,Marshal,"Jags act like they have no feedback when in "
+workaround,,control,setSpeedRef.vi,Marshal,"Jags act like they have no feedback when in"
