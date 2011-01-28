@@ -4,3 +4,4 @@ status,severity,category,files,"reported by",description
 "no hardware",3,calibration,"init manipulators.vi",Marshal,"PID on arm needs tuning"
 "no hardware",3,calibration,"init manipulators.vi",Marshal,"PID on wrist needs tuning"
 "no hardware",3,calibration,"init manipulators.vi",Marshal,"ideal positions for grab servos unknown"
+workaround,,control,setSpeedRef.vi,Marshal,"Jags act like they have no feedback when in "
