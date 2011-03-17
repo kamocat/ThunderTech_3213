@@ -61,7 +61,7 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
-				<Property Name="App_applicationName" Type="Str">FRC Dashboard.exe</Property>
+				<Property Name="App_applicationName" Type="Str">Dashboard.exe</Property>
 				<Property Name="App_fileDescription" Type="Str">FRC PC Dashboard</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{47BAFDCE-3F99-4134-9347-62A4C9A5434C}</Property>
@@ -72,16 +72,16 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">FRC Dashboard.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Documents and Settings/Administrator/My Documents/LabVIEW Data/builds/FRC Dashboard Project/FRC PC Dashboard/internal.llb</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Program Files/FRC Dashboard/internal.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Documents and Settings/Administrator/My Documents/LabVIEW Data/builds/FRC Dashboard Project/FRC PC Dashboard/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Program Files/FRC Dashboard/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1DC69E0B-5F88-497D-AF44-143900D2A246}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B753D560-24E9-4867-A39F-438736E69D58}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
