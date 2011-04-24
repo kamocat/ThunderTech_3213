@@ -122,6 +122,7 @@ KeepAliveTimeout 60
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="new auto.vi" Type="VI" URL="../new auto.vi"/>
 		<Item Name="FRC.ini" Type="Document" URL="../FRC.ini"/>
+		<Item Name="test servo.vi" Type="VI" URL="../test servo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -598,10 +599,6 @@ KeepAliveTimeout 60
 			<Item Name="simulation global.vi" Type="VI" URL="../simulate/simulation global.vi"/>
 			<Item Name="close Drive references.vi" Type="VI" URL="../OI/close Drive references.vi"/>
 			<Item Name="close maniupulator references.vi" Type="VI" URL="../OI/close maniupulator references.vi"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
